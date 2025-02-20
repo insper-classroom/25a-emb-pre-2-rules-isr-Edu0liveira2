@@ -11,9 +11,9 @@ void btn_callback(void) {
 }
 
 void main(void) {
-  volatile char g_str[10];
+  char g_str[10];
   int batata;
-  volatile int flag=0;
+  int flag=0;
   if(flag==1){
     printf("btn pressed \n");
     int i = 0;
